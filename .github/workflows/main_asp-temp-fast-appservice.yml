@@ -24,10 +24,7 @@ jobs:
         with:
           dotnet-version: '7.x'
           include-prerelease: true
-
-      - name: change directory
-        run: cd app
-        
+ 
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
